@@ -5,12 +5,13 @@ import java.util.Scanner;
 public class ArithmeticCalculator {
 
 	public static void main(String[] args) {
-		// Scanner objects are created to take input from the user through console
+		// Scanner Objects are created to take input from the user through console
 		Scanner num1 = new Scanner(System.in);
 		Scanner num2 = new Scanner(System.in);
 		
 		System.out.println("Enter Numbers for Arithmetic Calculations.....");
-		
+
+                // getting value in Double from Scanner		
 		double number1 = num1.nextDouble();
 		double number2 = num2.nextDouble();
 		
